@@ -13,7 +13,7 @@ Starbucks Rewards simulated dataset (Kaggle: "Starbucks Customer Rewards Program
 - `profile.json`: 17,000 customers
 - `transcript.json`: 306,534 events (offer received, viewed, completed, and transactions)
 
-The raw data is not included in this repo. Download it from Kaggle and place the three files next to the notebook.
+
 
 ## Approach
 1. **Cleaning:** Removed 2,175 customers with placeholder age (118) and missing gender and income, leaving 14,825. Converted dates, created a membership tenure feature, unpacked the nested event values, and encoded offer channels.
