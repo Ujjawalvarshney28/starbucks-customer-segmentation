@@ -46,7 +46,3 @@ The raw data is not included in this repo. Download it from Kaggle and place the
 ## Supply chain angle
 Expected redemptions for a campaign = customers in the segment x offers sent x segment completion rate. Estimated per segment, this gives planners a volume forecast to stock and staff for a promotion.
 
-## How to run
-1. Download the dataset from Kaggle and place the three JSON files in the same folder as the notebook.
-2. Install the libraries: `pip install pandas numpy matplotlib seaborn scikit-learn notebook`
-3. Open `starbucks_customer_segmentation.ipynb` and run all cells.
